@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>System_Test</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ModbusTCP">
+      <HintPath>..\..\ModbusTCP\ModbusTCP\bin\Debug\netstandard2.0\ModbusTCP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
